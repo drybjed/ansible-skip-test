@@ -1,0 +1,6 @@
+---
+
+- name: Inside include in alpha
+  debug:
+    msg: 'Included in Alpha role'
+

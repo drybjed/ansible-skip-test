@@ -1,0 +1,20 @@
+#!/usr/bin/env ansible-playbook
+
+---
+
+- hosts: all
+  tags: play-alpha
+
+  roles:
+
+    - role: role-alpha
+      tags: alpha
+
+- hosts: all
+  tags: play-beta
+
+  roles:
+
+    - role: role-beta
+      tags: beta
+

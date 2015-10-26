@@ -1,0 +1,10 @@
+---
+
+- name: This is the Beta Role
+  debug:
+    msg: 'Beta Role'
+  tags: beta
+
+- name: Include in Beta
+  include: in_beta.yml
+

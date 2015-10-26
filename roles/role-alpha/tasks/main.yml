@@ -1,0 +1,10 @@
+---
+
+- name: This is the Alpha Role
+  debug:
+    msg: 'Alpha Role'
+  tags: alpha
+
+- name: Include in alpha
+  include: in_alpha.yml
+

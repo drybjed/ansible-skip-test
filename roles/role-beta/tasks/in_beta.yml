@@ -1,0 +1,6 @@
+---
+
+- name: Inside include in beta
+  debug:
+    msg: 'Included in Beta role'
+
